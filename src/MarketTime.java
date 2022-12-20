@@ -33,7 +33,7 @@ public class MarketTime {
 		
 		//WebElement staticDropdown = driver.findElement(By.xpath("(//rtcustom-dropdown[contains(@class,'manufacturer-drop ng-tns-c74-649 ng-pristine ng-valid ng-touched')])[1]")).click();
 		//Select dropdown = new Select(staticDropdown);
-		//dropdown.deselectByIndex(24);
+		//dropdown.deselectByIndex(24); // test
 	
 		driver.findElement(By.xpath("(//li[contains(@aria-label,'Sara')])[1]")).click();
 		
